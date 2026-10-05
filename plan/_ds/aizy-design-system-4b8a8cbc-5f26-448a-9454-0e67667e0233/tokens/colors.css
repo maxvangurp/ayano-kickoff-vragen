@@ -1,0 +1,53 @@
+:root {
+  /* ── Ink: the deep indigo the brand reads as "black" ───────────── */
+  --ink-950: #170E2B;
+  --ink-900: #1F1144;
+  --ink-800: #25114E;
+  --ink-700: #2C1E51;
+  --ink-600: #3A2A63;
+  --ink-500: #55536B;
+
+  /* ── Purple: the primary brand colour ──────────────────────────── */
+  --purple-700: #3D28D4;
+  --purple-600: #4A34EA;
+  --purple-500: #5A46FF;
+  --purple-400: #7A5BFF;
+  --purple-300: #8E7CFF;
+  --purple-200: #ADA4FC;
+  --purple-100: #E4E0FF;
+  --purple-50:  #F1F0FE;
+
+  /* ── Mint & sky: the cool half of the gradient, used as accent ─── */
+  --mint-500: #3FE2C6;
+  --mint-400: #5DEED4;
+  --mint-300: #7DF2DE;
+  --sky-400:  #67C2E1;
+  --sky-300:  #8FD5EA;
+
+  /* ── Neutrals: always cool, never grey-grey ────────────────────── */
+  --white:     #FFFFFF;
+  --grey-50:   #FAFBFF;
+  --grey-100:  #F1F4FB;
+  --grey-150:  #F0F3FC;
+  --grey-200:  #E7EBF6;
+  --grey-300:  #D6DCEC;
+  --grey-400:  #B7C0D6;
+  --grey-500:  #8A93AC;
+  --wash-cyan: #E5F4F9;
+
+  /* ── Semantic hues ─────────────────────────────────────────────── */
+  --green-600: #0E9E77;
+  --green-50:  #EAF9F4;
+  --amber-600: #A37817;
+  --amber-50:  #FDF4E5;
+  --rose-500:  #F5356B;
+  --rose-50:   #FDEBF1;
+
+  /* ── Signature gradients ───────────────────────────────────────── */
+  --gradient-brand: linear-gradient(96deg, #5A46FF 0%, #8E7CFF 46%, #67C2E1 100%); /* @kind color */
+  --gradient-purple: linear-gradient(135deg, #5744FE 0%, #7A5BFF 100%); /* @kind color */
+  --gradient-purple-soft: linear-gradient(135deg, #6850FE 0%, #8E7CFF 100%); /* @kind color */
+  --gradient-page-light: linear-gradient(140deg, #FFFFFF 0%, #F1F0FE 38%, #F1F4FB 68%, #E5F4F9 100%); /* @kind color */
+  --gradient-page-dark: radial-gradient(120% 110% at 78% 8%, #3A2560 0%, #251549 38%, #1F1144 62%, #170E2B 100%); /* @kind color */
+  --gradient-veil-dark: linear-gradient(90deg, rgba(23,14,43,.94) 0%, rgba(23,14,43,.72) 42%, rgba(23,14,43,.15) 100%); /* @kind color */
+}

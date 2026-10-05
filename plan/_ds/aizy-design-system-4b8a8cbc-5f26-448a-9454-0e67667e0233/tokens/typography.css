@@ -1,0 +1,31 @@
+:root {
+  /* Deck / display scale — 1920×1080 slide sizes, halve for 960 previews */
+  --text-hero:    76px;
+  --text-display: 54px;
+  --text-title:   40px;
+  --text-stat:    46px;
+  --text-heading: 24px;
+  --text-subhead: 19px;
+  --text-body:    16px;
+  --text-small:   14px;
+  --text-caption: 12.5px;
+  --text-eyebrow: 12px;
+
+  --leading-tight:  1.02;
+  --leading-snug:   1.14;
+  --leading-normal: 1.45;
+  --leading-loose:  1.6;
+
+  --weight-light:    300;
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+  --weight-black:    800;
+
+  --tracking-hero:    -0.028em;
+  --tracking-display: -0.022em;
+  --tracking-heading: -0.012em;
+  --tracking-body:    0em;
+  --tracking-eyebrow: 0.17em;
+}

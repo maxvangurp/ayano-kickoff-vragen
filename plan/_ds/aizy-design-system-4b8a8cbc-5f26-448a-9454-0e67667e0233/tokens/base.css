@@ -1,0 +1,21 @@
+/* Minimal element defaults so specimen cards and kits share a baseline. */
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--leading-normal);
+  color: var(--text-default);
+  -webkit-font-smoothing: antialiased;
+  text-wrap: pretty;
+}
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-heading);
+  line-height: var(--leading-snug);
+  margin: 0;
+}
+a { color: var(--text-link); text-decoration: none; }
+a:hover { color: var(--text-link-hover); text-decoration: underline; text-underline-offset: 3px; }
+strong, b { font-weight: var(--weight-bold); }
+* { box-sizing: border-box; }
