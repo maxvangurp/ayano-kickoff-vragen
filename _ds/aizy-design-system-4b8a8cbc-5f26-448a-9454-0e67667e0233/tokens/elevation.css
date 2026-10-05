@@ -1,0 +1,14 @@
+:root {
+  /* Shadows are cool-tinted and very soft — never neutral black */
+  --shadow-hairline: 0 0 0 1px rgba(31, 17, 68, .06);
+  --shadow-card: 0 1px 2px rgba(31, 17, 68, .04), 0 8px 24px rgba(31, 17, 68, .05);
+  --shadow-card-hover: 0 2px 4px rgba(31, 17, 68, .05), 0 16px 40px rgba(31, 17, 68, .09);
+  --shadow-frame: 0 24px 70px rgba(31, 17, 68, .14), 0 2px 6px rgba(31, 17, 68, .05);
+  --shadow-purple: 0 12px 34px rgba(90, 70, 255, .28);
+  --shadow-inset-dark: inset 0 0 0 1px rgba(255, 255, 255, .08);
+
+  --border-hairline: 1px solid var(--grey-200); /* @kind other */
+  --border-hairline-dark: 1px solid rgba(255, 255, 255, .10); /* @kind other */
+  --rule-accent-w: 22px; /* @kind spacing */
+  --rule-accent-h: 3px; /* @kind spacing */
+}
